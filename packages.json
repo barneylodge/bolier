@@ -1,0 +1,2652 @@
+{
+    "packageId": "268c98b92d0728",
+    "name": "utilities issue",
+    "description": "issue reporting for utilities",
+    "buttons": [
+        {
+            "buttonId": "1d3ac3a9629eb9",
+            "name": "PRESS FOR HELP",
+            "description": "a problem with my apartment",
+            "type": "action",
+            "questions": [
+                {
+                    "question": "what is the issue?",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "heating",
+                            "water"
+                        ],
+                        "multiple": "single",
+                        "none": false
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "aad3d4d08b6948",
+                    "number": 1
+                },
+                {
+                    "question": "press the R on boiler panel",
+                    "type": "graphics",
+                    "values": {
+                        "templates": [
+                            {
+                                "tx": 28,
+                                "ty": 95,
+                                "template": {
+                                    "b599fde8b0677": {
+                                        "id": "b599fde8b0677",
+                                        "label": "rect:b599fde8b0677",
+                                        "type": "rect",
+                                        "x": 0.30000001192092896,
+                                        "y": 0.30000001192092896,
+                                        "width": 49.44499969482422,
+                                        "height": 53.50699996948242,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "c13304c29557c8": {
+                                        "id": "c13304c29557c8",
+                                        "label": "rect:c13304c29557c8",
+                                        "type": "rect",
+                                        "x": 11.706999778747559,
+                                        "y": 10.298999786376953,
+                                        "width": 26.768999099731445,
+                                        "height": 13.60200023651123,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "2bd6bb7dd48684": {
+                                        "id": "2bd6bb7dd48684",
+                                        "label": "rect:2bd6bb7dd48684",
+                                        "type": "rect",
+                                        "x": 14.609000205993652,
+                                        "y": 10.425000190734863,
+                                        "width": 10.51200008392334,
+                                        "height": 13.449999809265137,
+                                        "style": {
+                                            "fill": "rgb(197, 197, 197)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "7b30f3b41bdaac": {
+                                        "id": "7b30f3b41bdaac",
+                                        "label": "rect:7b30f3b41bdaac",
+                                        "type": "rect",
+                                        "x": 25.10300064086914,
+                                        "y": 10.383000373840332,
+                                        "width": 10.51200008392334,
+                                        "height": 13.449999809265137,
+                                        "style": {
+                                            "fill": "rgb(197, 197, 197)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "feae0098b13ec": {
+                                        "id": "feae0098b13ec",
+                                        "label": "path:feae0098b13ec",
+                                        "type": "path",
+                                        "d": "M 18.09,12.707 l 0.885,0.884 l 0,2.4 l -0.885,0.901 l -0.938,-0.901 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "7f222cdfb4a2d4": {
+                                        "id": "7f222cdfb4a2d4",
+                                        "label": "path:7f222cdfb4a2d4",
+                                        "type": "path",
+                                        "d": "M 22.698,12.686 l 0.885,0.884 l 0,2.4 l -0.885,0.902 l -0.938,-0.902 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "8a31e9586c4a08": {
+                                        "id": "8a31e9586c4a08",
+                                        "label": "path:8a31e9586c4a08",
+                                        "type": "path",
+                                        "d": "M 22.713,17.224 l 0.885,0.884 l 0,2.4 l -0.885,0.901 l -0.938,-0.901 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "ddbed5dbe4c3f8": {
+                                        "id": "ddbed5dbe4c3f8",
+                                        "label": "path:ddbed5dbe4c3f8",
+                                        "type": "path",
+                                        "d": "M 18.028,17.125 l 0.885,0.884 l 0,2.401 l -0.885,0.901 l -0.938,-0.901 l 0,-2.401 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "a6b257668dd228": {
+                                        "id": "a6b257668dd228",
+                                        "label": "path:a6b257668dd228",
+                                        "type": "path",
+                                        "d": "M 18.232,12.58 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "c49104a5eb3a78": {
+                                        "id": "c49104a5eb3a78",
+                                        "label": "path:c49104a5eb3a78",
+                                        "type": "path",
+                                        "d": "M 18.139,21.425 l 0.884,-0.885 l 2.401,0 l 0.901,0.885 l -0.901,0.938 l -2.401,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "d0859317b1a1e": {
+                                        "id": "d0859317b1a1e",
+                                        "label": "path:d0859317b1a1e",
+                                        "type": "path",
+                                        "d": "M 18.254,17.003 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "2233c11cd7475e": {
+                                        "id": "2233c11cd7475e",
+                                        "label": "path:2233c11cd7475e",
+                                        "type": "path",
+                                        "d": "M 28.224,12.715 l 0.885,0.884 l 0,2.4 l -0.885,0.901 l -0.938,-0.901 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "8754ba52c5c028": {
+                                        "id": "8754ba52c5c028",
+                                        "label": "path:8754ba52c5c028",
+                                        "type": "path",
+                                        "d": "M 32.831,12.694 l 0.885,0.884 l 0,2.401 l -0.885,0.901 l -0.938,-0.901 l 0,-2.401 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "b8774f591255f": {
+                                        "id": "b8774f591255f",
+                                        "label": "path:b8774f591255f",
+                                        "type": "path",
+                                        "d": "M 32.846,17.232 l 0.885,0.884 l 0,2.4 l -0.885,0.901 l -0.938,-0.901 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "141948b14ccc87": {
+                                        "id": "141948b14ccc87",
+                                        "label": "path:141948b14ccc87",
+                                        "type": "path",
+                                        "d": "M 28.162,17.133 l 0.885,0.884 l 0,2.401 l -0.885,0.901 l -0.938,-0.901 l 0,-2.401 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "38a9a6e5124eca": {
+                                        "id": "38a9a6e5124eca",
+                                        "label": "path:38a9a6e5124eca",
+                                        "type": "path",
+                                        "d": "M 28.365,12.588 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "c7bf30588413": {
+                                        "id": "c7bf30588413",
+                                        "label": "path:c7bf30588413",
+                                        "type": "path",
+                                        "d": "M 28.273,21.433 l 0.884,-0.885 l 2.4,0 l 0.901,0.885 l -0.901,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "642d5a4bcc8844": {
+                                        "id": "642d5a4bcc8844",
+                                        "label": "path:642d5a4bcc8844",
+                                        "type": "path",
+                                        "d": "M 28.387,17.011 l 0.884,-0.885 l 2.401,0 l 0.901,0.885 l -0.901,0.938 l -2.401,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "30e46968c88256": {
+                                        "id": "30e46968c88256",
+                                        "type": "ellipse",
+                                        "label": "ellipse:30e46968c88256",
+                                        "cx": 7.017000198364258,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "rgb(107, 198, 254)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "366120e78a9fe": {
+                                        "id": "366120e78a9fe",
+                                        "type": "ellipse",
+                                        "label": "ellipse:366120e78a9fe",
+                                        "cx": 19.06599998474121,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "b52b8da4c3e2c": {
+                                        "id": "b52b8da4c3e2c",
+                                        "type": "ellipse",
+                                        "label": "ellipse:b52b8da4c3e2c",
+                                        "cx": 31.114999771118164,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "fc9d984844efc8": {
+                                        "id": "fc9d984844efc8",
+                                        "type": "ellipse",
+                                        "label": "ellipse:fc9d984844efc8",
+                                        "cx": 43.16400146484375,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "46101e4bc206a": {
+                                        "id": "46101e4bc206a",
+                                        "label": "path:46101e4bc206a",
+                                        "type": "path",
+                                        "d": "M 5.433,43.446 l 0,-4.182 l 1.855,0 c 0.372,0 0.656,0.037 0.85,0.112 c 0.194,0.076 0.349,0.208 0.465,0.398 c 0.116,0.19 0.174,0.401 0.174,0.631 c 0,0.296 -0.096,0.546 -0.289,0.75 c -0.192,0.203 -0.488,0.333 -0.89,0.388 c 0.147,0.07 0.258,0.14 0.334,0.208 c 0.162,0.148 0.315,0.334 0.459,0.556 l 0.728,1.139 l -0.696,0 l -0.554,-0.87 c -0.161,-0.252 -0.294,-0.444 -0.399,-0.577 c -0.105,-0.133 -0.198,-0.226 -0.281,-0.279 c -0.083,-0.053 -0.167,-0.091 -0.252,-0.111 c -0.063,-0.014 -0.166,-0.02 -0.308,-0.02 l -0.642,0 l 0,1.857 l -0.554,0 Z  m 0.554,-2.337 l 1.189,0 c 0.253,0 0.451,-0.026 0.594,-0.078 c 0.142,-0.052 0.251,-0.136 0.325,-0.251 c 0.074,-0.115 0.111,-0.24 0.111,-0.375 c 0,-0.198 -0.072,-0.361 -0.215,-0.488 c -0.144,-0.127 -0.371,-0.191 -0.681,-0.191 l -1.323,0 l 0,1.383 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "a886efc192f0a": {
+                                        "id": "a886efc192f0a",
+                                        "label": "rect:a886efc192f0a",
+                                        "type": "rect",
+                                        "x": 18.016000747680664,
+                                        "y": 41.07699966430664,
+                                        "width": 1.8899999856948853,
+                                        "height": 0.6190000176429749,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "55e08bb5563cc4": {
+                                        "id": "55e08bb5563cc4",
+                                        "label": "path:55e08bb5563cc4",
+                                        "type": "path",
+                                        "d": "M 30.808,43.021 l 0,-1.374 l -1.364,0 l 0,-0.575 l 1.364,0 l 0,-1.363 l 0.581,0 l 0,1.363 l 1.364,0 l 0,0.575 l -1.364,0 l 0,1.374 l -0.581,0 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "27c33be55457a4": {
+                                        "id": "27c33be55457a4",
+                                        "label": "path:27c33be55457a4",
+                                        "type": "path",
+                                        "d": "M 40.236,41.615 l 3.252,-1.939 l 0,3.695 l -3.252,-1.756 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "280324f7027f1c": {
+                                        "id": "280324f7027f1c",
+                                        "label": "path:280324f7027f1c",
+                                        "type": "path",
+                                        "d": "M 42.98,41.497 l 2.496,0 l 0,-2.018",
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    }
+                                },
+                                "scale": {
+                                    "sx": 4.984224451761656,
+                                    "sy": 4.906030019361815
+                                }
+                            }
+                        ]
+                    },
+                    "validators": [],
+                    "questionId": "f6025d0ff4b488",
+                    "number": 2
+                },
+                {
+                    "question": "what do you see?",
+                    "type": "graphics",
+                    "values": {
+                        "templates": [
+                            {
+                                "tx": 80,
+                                "ty": 14,
+                                "template": {
+                                    "35bd6b7eeb9a94": {
+                                        "id": "35bd6b7eeb9a94",
+                                        "label": "rect:35bd6b7eeb9a94",
+                                        "type": "rect",
+                                        "x": 0.30000001192092896,
+                                        "y": 0.30000001192092896,
+                                        "width": 49.44499969482422,
+                                        "height": 53.50699996948242,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "1d317095c49f8f": {
+                                        "id": "1d317095c49f8f",
+                                        "label": "rect:1d317095c49f8f",
+                                        "type": "rect",
+                                        "x": 11.706999778747559,
+                                        "y": 10.298999786376953,
+                                        "width": 26.768999099731445,
+                                        "height": 13.60200023651123,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "25bafec01b3142": {
+                                        "id": "25bafec01b3142",
+                                        "label": "rect:25bafec01b3142",
+                                        "type": "rect",
+                                        "x": 14.609000205993652,
+                                        "y": 10.425000190734863,
+                                        "width": 10.51200008392334,
+                                        "height": 13.449999809265137,
+                                        "style": {
+                                            "fill": "rgb(197, 197, 197)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "265a340d82888c": {
+                                        "id": "265a340d82888c",
+                                        "label": "rect:265a340d82888c",
+                                        "type": "rect",
+                                        "x": 25.10300064086914,
+                                        "y": 10.383000373840332,
+                                        "width": 10.51200008392334,
+                                        "height": 13.449999809265137,
+                                        "style": {
+                                            "fill": "rgb(197, 197, 197)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "3a7242e09d690e": {
+                                        "id": "3a7242e09d690e",
+                                        "label": "path:3a7242e09d690e",
+                                        "type": "path",
+                                        "d": "M 18.09,12.707 l 0.885,0.884 l 0,2.4 l -0.885,0.901 l -0.938,-0.901 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "ef01a0f5ea399": {
+                                        "id": "ef01a0f5ea399",
+                                        "label": "path:ef01a0f5ea399",
+                                        "type": "path",
+                                        "d": "M 18.028,17.125 l 0.885,0.884 l 0,2.401 l -0.885,0.901 l -0.938,-0.901 l 0,-2.401 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "8fc5bf3ea9824": {
+                                        "id": "8fc5bf3ea9824",
+                                        "label": "path:8fc5bf3ea9824",
+                                        "type": "path",
+                                        "d": "M 18.232,12.58 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "5be706b37be658": {
+                                        "id": "5be706b37be658",
+                                        "label": "path:5be706b37be658",
+                                        "type": "path",
+                                        "d": "M 18.139,21.425 l 0.884,-0.885 l 2.401,0 l 0.901,0.885 l -0.901,0.938 l -2.401,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "88a8003981efd": {
+                                        "id": "88a8003981efd",
+                                        "label": "path:88a8003981efd",
+                                        "type": "path",
+                                        "d": "M 18.254,17.003 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "f3e0fe86728e7": {
+                                        "id": "f3e0fe86728e7",
+                                        "label": "path:f3e0fe86728e7",
+                                        "type": "path",
+                                        "d": "M 30.378,12.362 l 0.885,0.884 l 0,2.4 l -0.885,0.902 l -0.938,-0.902 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "811838364503b8": {
+                                        "id": "811838364503b8",
+                                        "label": "path:811838364503b8",
+                                        "type": "path",
+                                        "d": "M 30.316,16.78 l 0.885,0.884 l 0,2.401 l -0.885,0.901 l -0.938,-0.901 l 0,-2.401 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "d403e9f7f4de58": {
+                                        "id": "d403e9f7f4de58",
+                                        "type": "ellipse",
+                                        "label": "ellipse:d403e9f7f4de58",
+                                        "cx": 7.017000198364258,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "80847e5c29a62": {
+                                        "id": "80847e5c29a62",
+                                        "type": "ellipse",
+                                        "label": "ellipse:80847e5c29a62",
+                                        "cx": 19.06599998474121,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "55c299d7d75ec8": {
+                                        "id": "55c299d7d75ec8",
+                                        "type": "ellipse",
+                                        "label": "ellipse:55c299d7d75ec8",
+                                        "cx": 31.114999771118164,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "8637e8514f2b48": {
+                                        "id": "8637e8514f2b48",
+                                        "type": "ellipse",
+                                        "label": "ellipse:8637e8514f2b48",
+                                        "cx": 43.16400146484375,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "8bb468ce305fc8": {
+                                        "id": "8bb468ce305fc8",
+                                        "label": "path:8bb468ce305fc8",
+                                        "type": "path",
+                                        "d": "M 5.433,43.446 l 0,-4.182 l 1.855,0 c 0.372,0 0.656,0.037 0.85,0.112 c 0.194,0.076 0.349,0.208 0.465,0.398 c 0.116,0.19 0.174,0.401 0.174,0.631 c 0,0.296 -0.096,0.546 -0.289,0.75 c -0.192,0.203 -0.488,0.333 -0.89,0.388 c 0.147,0.07 0.258,0.14 0.334,0.208 c 0.162,0.148 0.315,0.334 0.459,0.556 l 0.728,1.139 l -0.696,0 l -0.554,-0.87 c -0.161,-0.252 -0.294,-0.444 -0.399,-0.577 c -0.105,-0.133 -0.198,-0.226 -0.281,-0.279 c -0.083,-0.053 -0.167,-0.091 -0.252,-0.111 c -0.063,-0.014 -0.166,-0.02 -0.308,-0.02 l -0.642,0 l 0,1.857 l -0.554,0 Z  m 0.554,-2.337 l 1.189,0 c 0.253,0 0.451,-0.026 0.594,-0.078 c 0.142,-0.052 0.251,-0.136 0.325,-0.251 c 0.074,-0.115 0.111,-0.24 0.111,-0.375 c 0,-0.198 -0.072,-0.361 -0.215,-0.488 c -0.144,-0.127 -0.371,-0.191 -0.681,-0.191 l -1.323,0 l 0,1.383 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "fae78f43e0bb7": {
+                                        "id": "fae78f43e0bb7",
+                                        "label": "rect:fae78f43e0bb7",
+                                        "type": "rect",
+                                        "x": 18.016000747680664,
+                                        "y": 41.07699966430664,
+                                        "width": 1.8899999856948853,
+                                        "height": 0.6190000176429749,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "290abd86d66732": {
+                                        "id": "290abd86d66732",
+                                        "label": "path:290abd86d66732",
+                                        "type": "path",
+                                        "d": "M 30.808,43.021 l 0,-1.374 l -1.364,0 l 0,-0.575 l 1.364,0 l 0,-1.363 l 0.581,0 l 0,1.363 l 1.364,0 l 0,0.575 l -1.364,0 l 0,1.374 l -0.581,0 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "ace271556e915": {
+                                        "id": "ace271556e915",
+                                        "label": "path:ace271556e915",
+                                        "type": "path",
+                                        "d": "M 40.236,41.615 l 3.252,-1.939 l 0,3.695 l -3.252,-1.756 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "81b046eb355078": {
+                                        "id": "81b046eb355078",
+                                        "label": "path:81b046eb355078",
+                                        "type": "path",
+                                        "d": "M 42.98,41.497 l 2.496,0 l 0,-2.018",
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    }
+                                },
+                                "scale": {
+                                    "sx": 2.901101953198775,
+                                    "sy": 2.7194005879138867
+                                }
+                            },
+                            {
+                                "tx": 80,
+                                "ty": 174,
+                                "template": {
+                                    "8426aabaceea58": {
+                                        "id": "8426aabaceea58",
+                                        "label": "rect:8426aabaceea58",
+                                        "type": "rect",
+                                        "x": 0.30000001192092896,
+                                        "y": 0.30000001192092896,
+                                        "width": 49.44499969482422,
+                                        "height": 53.50699996948242,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "79b5bb1cba9a14": {
+                                        "id": "79b5bb1cba9a14",
+                                        "label": "rect:79b5bb1cba9a14",
+                                        "type": "rect",
+                                        "x": 11.706999778747559,
+                                        "y": 10.298999786376953,
+                                        "width": 26.768999099731445,
+                                        "height": 13.60200023651123,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "70a211ab0e8a9": {
+                                        "id": "70a211ab0e8a9",
+                                        "label": "rect:70a211ab0e8a9",
+                                        "type": "rect",
+                                        "x": 14.609000205993652,
+                                        "y": 10.425000190734863,
+                                        "width": 10.51200008392334,
+                                        "height": 13.449999809265137,
+                                        "style": {
+                                            "fill": "rgb(197, 197, 197)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "1a9cca59d81066": {
+                                        "id": "1a9cca59d81066",
+                                        "label": "rect:1a9cca59d81066",
+                                        "type": "rect",
+                                        "x": 25.10300064086914,
+                                        "y": 10.383000373840332,
+                                        "width": 10.51200008392334,
+                                        "height": 13.449999809265137,
+                                        "style": {
+                                            "fill": "rgb(197, 197, 197)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "8a2e329aec83c": {
+                                        "id": "8a2e329aec83c",
+                                        "label": "path:8a2e329aec83c",
+                                        "type": "path",
+                                        "d": "M 18.09,12.707 l 0.885,0.884 l 0,2.4 l -0.885,0.901 l -0.938,-0.901 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "465c79495f9a88": {
+                                        "id": "465c79495f9a88",
+                                        "label": "path:465c79495f9a88",
+                                        "type": "path",
+                                        "d": "M 18.028,17.125 l 0.885,0.884 l 0,2.401 l -0.885,0.901 l -0.938,-0.901 l 0,-2.401 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "54a64f6d9b218": {
+                                        "id": "54a64f6d9b218",
+                                        "label": "path:54a64f6d9b218",
+                                        "type": "path",
+                                        "d": "M 18.232,12.58 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "515079b2a999b8": {
+                                        "id": "515079b2a999b8",
+                                        "label": "path:515079b2a999b8",
+                                        "type": "path",
+                                        "d": "M 18.139,21.425 l 0.884,-0.885 l 2.401,0 l 0.901,0.885 l -0.901,0.938 l -2.401,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "c92da98bc78478": {
+                                        "id": "c92da98bc78478",
+                                        "label": "path:c92da98bc78478",
+                                        "type": "path",
+                                        "d": "M 18.254,17.003 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "efc48af8fcab78": {
+                                        "id": "efc48af8fcab78",
+                                        "label": "path:efc48af8fcab78",
+                                        "type": "path",
+                                        "d": "M 32.697,12.843 l 0.885,0.884 l 0,2.4 l -0.885,0.902 l -0.938,-0.902 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "b318f20162851": {
+                                        "id": "b318f20162851",
+                                        "label": "path:b318f20162851",
+                                        "type": "path",
+                                        "d": "M 28.345,17.346 l 0.885,0.884 l 0,2.401 l -0.885,0.901 l -0.938,-0.901 l 0,-2.401 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "e95a7e95fc539": {
+                                        "id": "e95a7e95fc539",
+                                        "label": "path:e95a7e95fc539",
+                                        "type": "path",
+                                        "d": "M 28.361,12.657 l 0.884,-0.885 l 2.401,0 l 0.901,0.885 l -0.901,0.938 l -2.401,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "cafebbc15e5238": {
+                                        "id": "cafebbc15e5238",
+                                        "label": "path:cafebbc15e5238",
+                                        "type": "path",
+                                        "d": "M 28.475,21.646 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "8d1c61d73e159": {
+                                        "id": "8d1c61d73e159",
+                                        "label": "path:8d1c61d73e159",
+                                        "type": "path",
+                                        "d": "M 28.359,17.131 l 0.884,-0.885 l 2.401,0 l 0.901,0.885 l -0.901,0.938 l -2.401,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "809df3dd53ba3": {
+                                        "id": "809df3dd53ba3",
+                                        "type": "ellipse",
+                                        "label": "ellipse:809df3dd53ba3",
+                                        "cx": 7.017000198364258,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "ce05152eae6518": {
+                                        "id": "ce05152eae6518",
+                                        "type": "ellipse",
+                                        "label": "ellipse:ce05152eae6518",
+                                        "cx": 19.06599998474121,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "ccaa8dcb40d34": {
+                                        "id": "ccaa8dcb40d34",
+                                        "type": "ellipse",
+                                        "label": "ellipse:ccaa8dcb40d34",
+                                        "cx": 31.114999771118164,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "f47c35f32392b8": {
+                                        "id": "f47c35f32392b8",
+                                        "type": "ellipse",
+                                        "label": "ellipse:f47c35f32392b8",
+                                        "cx": 43.16400146484375,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "1071fa3b2d1506": {
+                                        "id": "1071fa3b2d1506",
+                                        "label": "path:1071fa3b2d1506",
+                                        "type": "path",
+                                        "d": "M 5.433,43.446 l 0,-4.182 l 1.855,0 c 0.372,0 0.656,0.037 0.85,0.112 c 0.194,0.076 0.349,0.208 0.465,0.398 c 0.116,0.19 0.174,0.401 0.174,0.631 c 0,0.296 -0.096,0.546 -0.289,0.75 c -0.192,0.203 -0.488,0.333 -0.89,0.388 c 0.147,0.07 0.258,0.14 0.334,0.208 c 0.162,0.148 0.315,0.334 0.459,0.556 l 0.728,1.139 l -0.696,0 l -0.554,-0.87 c -0.161,-0.252 -0.294,-0.444 -0.399,-0.577 c -0.105,-0.133 -0.198,-0.226 -0.281,-0.279 c -0.083,-0.053 -0.167,-0.091 -0.252,-0.111 c -0.063,-0.014 -0.166,-0.02 -0.308,-0.02 l -0.642,0 l 0,1.857 l -0.554,0 Z  m 0.554,-2.337 l 1.189,0 c 0.253,0 0.451,-0.026 0.594,-0.078 c 0.142,-0.052 0.251,-0.136 0.325,-0.251 c 0.074,-0.115 0.111,-0.24 0.111,-0.375 c 0,-0.198 -0.072,-0.361 -0.215,-0.488 c -0.144,-0.127 -0.371,-0.191 -0.681,-0.191 l -1.323,0 l 0,1.383 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "c0d619c98dd238": {
+                                        "id": "c0d619c98dd238",
+                                        "label": "rect:c0d619c98dd238",
+                                        "type": "rect",
+                                        "x": 18.016000747680664,
+                                        "y": 41.07699966430664,
+                                        "width": 1.8899999856948853,
+                                        "height": 0.6190000176429749,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "20a8de322f8372": {
+                                        "id": "20a8de322f8372",
+                                        "label": "path:20a8de322f8372",
+                                        "type": "path",
+                                        "d": "M 30.808,43.021 l 0,-1.374 l -1.364,0 l 0,-0.575 l 1.364,0 l 0,-1.363 l 0.581,0 l 0,1.363 l 1.364,0 l 0,0.575 l -1.364,0 l 0,1.374 l -0.581,0 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "a91ab756efbd28": {
+                                        "id": "a91ab756efbd28",
+                                        "label": "path:a91ab756efbd28",
+                                        "type": "path",
+                                        "d": "M 40.236,41.615 l 3.252,-1.939 l 0,3.695 l -3.252,-1.756 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "947a7f79e2e6c": {
+                                        "id": "947a7f79e2e6c",
+                                        "label": "path:947a7f79e2e6c",
+                                        "type": "path",
+                                        "d": "M 42.98,41.497 l 2.496,0 l 0,-2.018",
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    }
+                                },
+                                "scale": {
+                                    "sx": 2.8606529754711416,
+                                    "sy": 2.532509291231453
+                                }
+                            },
+                            {
+                                "tx": 82,
+                                "ty": 326,
+                                "template": {
+                                    "15ddac014a6ff4": {
+                                        "id": "15ddac014a6ff4",
+                                        "label": "rect:15ddac014a6ff4",
+                                        "type": "rect",
+                                        "x": 0.30000001192092896,
+                                        "y": 0.30000001192092896,
+                                        "width": 49.44499969482422,
+                                        "height": 53.50699996948242,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "a6938c787d2e3": {
+                                        "id": "a6938c787d2e3",
+                                        "label": "rect:a6938c787d2e3",
+                                        "type": "rect",
+                                        "x": 11.706999778747559,
+                                        "y": 10.298999786376953,
+                                        "width": 26.768999099731445,
+                                        "height": 13.60200023651123,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "94b9763de198f8": {
+                                        "id": "94b9763de198f8",
+                                        "label": "rect:94b9763de198f8",
+                                        "type": "rect",
+                                        "x": 14.609000205993652,
+                                        "y": 10.425000190734863,
+                                        "width": 10.51200008392334,
+                                        "height": 13.449999809265137,
+                                        "style": {
+                                            "fill": "rgb(197, 197, 197)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "71dc1348ebebfc": {
+                                        "id": "71dc1348ebebfc",
+                                        "label": "rect:71dc1348ebebfc",
+                                        "type": "rect",
+                                        "x": 25.10300064086914,
+                                        "y": 10.383000373840332,
+                                        "width": 10.51200008392334,
+                                        "height": 13.449999809265137,
+                                        "style": {
+                                            "fill": "rgb(197, 197, 197)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "3a2681c04d2b9e": {
+                                        "id": "3a2681c04d2b9e",
+                                        "label": "path:3a2681c04d2b9e",
+                                        "type": "path",
+                                        "d": "M 18.09,12.707 l 0.885,0.884 l 0,2.4 l -0.885,0.901 l -0.938,-0.901 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "3fc6d51cf0c3ba": {
+                                        "id": "3fc6d51cf0c3ba",
+                                        "label": "path:3fc6d51cf0c3ba",
+                                        "type": "path",
+                                        "d": "M 18.028,17.125 l 0.885,0.884 l 0,2.401 l -0.885,0.901 l -0.938,-0.901 l 0,-2.401 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "fd4d7ff8758e7": {
+                                        "id": "fd4d7ff8758e7",
+                                        "label": "path:fd4d7ff8758e7",
+                                        "type": "path",
+                                        "d": "M 18.232,12.58 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "4d9e8ead0336a": {
+                                        "id": "4d9e8ead0336a",
+                                        "label": "path:4d9e8ead0336a",
+                                        "type": "path",
+                                        "d": "M 27.97,12.874 l 0.884,-0.885 l 2.4,0 l 0.901,0.885 l -0.901,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "9c748250c8c27": {
+                                        "id": "9c748250c8c27",
+                                        "label": "path:9c748250c8c27",
+                                        "type": "path",
+                                        "d": "M 18.139,21.425 l 0.884,-0.885 l 2.401,0 l 0.901,0.885 l -0.901,0.938 l -2.401,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "9f2a18ddf5f588": {
+                                        "id": "9f2a18ddf5f588",
+                                        "label": "path:9f2a18ddf5f588",
+                                        "type": "path",
+                                        "d": "M 18.254,17.003 l 0.884,-0.885 l 2.4,0 l 0.902,0.885 l -0.902,0.938 l -2.4,0 l -0.884,-0.938 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "adeb2481150d18": {
+                                        "id": "adeb2481150d18",
+                                        "label": "path:adeb2481150d18",
+                                        "type": "path",
+                                        "d": "M 32.435,13.055 l 0.885,0.884 l 0,2.4 l -0.885,0.902 l -0.938,-0.902 l 0,-2.4 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "4cfbc966984628": {
+                                        "id": "4cfbc966984628",
+                                        "label": "path:4cfbc966984628",
+                                        "type": "path",
+                                        "d": "M 32.557,17.231 l 0.885,0.884 l 0,2.401 l -0.885,0.901 l -0.938,-0.901 l 0,-2.401 l 0.938,-0.884 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "9850a976aa5878": {
+                                        "id": "9850a976aa5878",
+                                        "type": "ellipse",
+                                        "label": "ellipse:9850a976aa5878",
+                                        "cx": 7.017000198364258,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "dd5cf7060f7ba8": {
+                                        "id": "dd5cf7060f7ba8",
+                                        "type": "ellipse",
+                                        "label": "ellipse:dd5cf7060f7ba8",
+                                        "cx": 19.06599998474121,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "aabb849d5a0808": {
+                                        "id": "aabb849d5a0808",
+                                        "type": "ellipse",
+                                        "label": "ellipse:aabb849d5a0808",
+                                        "cx": 31.114999771118164,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "5f98b1ba93e7c": {
+                                        "id": "5f98b1ba93e7c",
+                                        "type": "ellipse",
+                                        "label": "ellipse:5f98b1ba93e7c",
+                                        "cx": 43.16400146484375,
+                                        "cy": 41.42900085449219,
+                                        "rx": 4.243000030517578,
+                                        "ry": 4.264999866485596,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.6px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "ae893af4c905b8": {
+                                        "id": "ae893af4c905b8",
+                                        "label": "path:ae893af4c905b8",
+                                        "type": "path",
+                                        "d": "M 5.433,43.446 l 0,-4.182 l 1.855,0 c 0.372,0 0.656,0.037 0.85,0.112 c 0.194,0.076 0.349,0.208 0.465,0.398 c 0.116,0.19 0.174,0.401 0.174,0.631 c 0,0.296 -0.096,0.546 -0.289,0.75 c -0.192,0.203 -0.488,0.333 -0.89,0.388 c 0.147,0.07 0.258,0.14 0.334,0.208 c 0.162,0.148 0.315,0.334 0.459,0.556 l 0.728,1.139 l -0.696,0 l -0.554,-0.87 c -0.161,-0.252 -0.294,-0.444 -0.399,-0.577 c -0.105,-0.133 -0.198,-0.226 -0.281,-0.279 c -0.083,-0.053 -0.167,-0.091 -0.252,-0.111 c -0.063,-0.014 -0.166,-0.02 -0.308,-0.02 l -0.642,0 l 0,1.857 l -0.554,0 Z  m 0.554,-2.337 l 1.189,0 c 0.253,0 0.451,-0.026 0.594,-0.078 c 0.142,-0.052 0.251,-0.136 0.325,-0.251 c 0.074,-0.115 0.111,-0.24 0.111,-0.375 c 0,-0.198 -0.072,-0.361 -0.215,-0.488 c -0.144,-0.127 -0.371,-0.191 -0.681,-0.191 l -1.323,0 l 0,1.383 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "c1fb9d0205634": {
+                                        "id": "c1fb9d0205634",
+                                        "label": "rect:c1fb9d0205634",
+                                        "type": "rect",
+                                        "x": 18.016000747680664,
+                                        "y": 41.07699966430664,
+                                        "width": 1.8899999856948853,
+                                        "height": 0.6190000176429749,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "c434d37512faa": {
+                                        "id": "c434d37512faa",
+                                        "label": "path:c434d37512faa",
+                                        "type": "path",
+                                        "d": "M 30.808,43.021 l 0,-1.374 l -1.364,0 l 0,-0.575 l 1.364,0 l 0,-1.363 l 0.581,0 l 0,1.363 l 1.364,0 l 0,0.575 l -1.364,0 l 0,1.374 l -0.581,0 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "b2bd9f902df26": {
+                                        "id": "b2bd9f902df26",
+                                        "label": "path:b2bd9f902df26",
+                                        "type": "path",
+                                        "d": "M 40.236,41.615 l 3.252,-1.939 l 0,3.695 l -3.252,-1.756 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "be5c472c2dc388": {
+                                        "id": "be5c472c2dc388",
+                                        "label": "path:be5c472c2dc388",
+                                        "type": "path",
+                                        "d": "M 42.98,41.497 l 2.496,0 l 0,-2.018",
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    }
+                                },
+                                "scale": {
+                                    "sx": 2.799979672421872,
+                                    "sy": 2.5885766468504494
+                                }
+                            }
+                        ]
+                    },
+                    "validators": [],
+                    "questionId": "1a671649beb3ca",
+                    "number": 3
+                },
+                {
+                    "question": "",
+                    "type": "graphics",
+                    "values": {
+                        "templates": []
+                    },
+                    "validators": [],
+                    "questionId": "1d1936c3479db7",
+                    "number": 4
+                },
+                {
+                    "question": "",
+                    "type": "graphics",
+                    "values": {
+                        "templates": []
+                    },
+                    "validators": [],
+                    "questionId": "21e2ca3add009c",
+                    "number": 5
+                },
+                {
+                    "question": "",
+                    "type": "graphics",
+                    "values": {
+                        "templates": []
+                    },
+                    "validators": [],
+                    "questionId": "164f0b02a2b9f6",
+                    "number": 6
+                },
+                {
+                    "question": "what is the problem?",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "water pressure",
+                            "no water",
+                            "leak!"
+                        ],
+                        "multiple": "single",
+                        "none": false
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "8739d6b1599bd8",
+                    "number": 7
+                },
+                {
+                    "question": "how urgent is it?",
+                    "type": "options",
+                    "values": {
+                        "options": [
+                            "very urgent",
+                            "needs sorting sometime today",
+                            "not urgent"
+                        ],
+                        "multiple": "single",
+                        "none": false
+                    },
+                    "validators": [],
+                    "compulsory": true,
+                    "questionId": "1d1f3ad86bc48c",
+                    "number": 8
+                },
+                {
+                    "question": "when can we come and take a look?",
+                    "type": "datetime",
+                    "values": {
+                        "options": [
+                            "time",
+                            "date"
+                        ]
+                    },
+                    "validators": [],
+                    "questionId": "1fe019b7a9046",
+                    "number": 9
+                },
+                {
+                    "question": "what does the gauge look like?",
+                    "type": "graphics",
+                    "values": {
+                        "templates": [
+                            {
+                                "tx": 56,
+                                "ty": 244,
+                                "template": {
+                                    "b852558e328228": {
+                                        "id": "b852558e328228",
+                                        "type": "ellipse",
+                                        "label": "ellipse:b852558e328228",
+                                        "cx": 28.187000274658203,
+                                        "cy": 28.05699920654297,
+                                        "rx": 27.812000274658203,
+                                        "ry": 27.68199920654297,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "58c815e06911bc": {
+                                        "id": "58c815e06911bc",
+                                        "label": "rect:58c815e06911bc",
+                                        "type": "rect",
+                                        "x": 25.540000915527344,
+                                        "y": 41.12300109863281,
+                                        "width": 4.98199987411499,
+                                        "height": 1.9459999799728394,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "3d1ba719cee0d8": {
+                                        "id": "3d1ba719cee0d8",
+                                        "label": "path:3d1ba719cee0d8",
+                                        "type": "path",
+                                        "d": "M 14.375,24.658 l -0.615,0 l 0,-3.92 c -0.148,0.141 -0.342,0.282 -0.583,0.424 c -0.24,0.141 -0.456,0.247 -0.647,0.318 l 0,-0.595 c 0.344,-0.162 0.644,-0.358 0.902,-0.588 c 0.257,-0.23 0.44,-0.454 0.547,-0.67 l 0.396,0 l 0,5.031 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "4019957607488c": {
+                                        "id": "4019957607488c",
+                                        "label": "path:4019957607488c",
+                                        "type": "path",
+                                        "d": "M 40.263,39.529 l 0,-1.2 l -2.174,0 l 0,-0.564 l 2.287,-3.247 l 0.503,0 l 0,3.247 l 0.676,0 l 0,0.564 l -0.676,0 l 0,1.2 l -0.616,0 Z  m 0,-1.764 l 0,-2.259 l -1.569,2.259 l 1.569,0 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "3eb2cb625a5234": {
+                                        "id": "3eb2cb625a5234",
+                                        "label": "path:3eb2cb625a5234",
+                                        "type": "path",
+                                        "d": "M 13.869,9.244 l 10.548,13.48 c 1.441,-0.382 2.668,-0.692 4.031,-0.73 l 0.568,-17.478 c -6.428,-0.699 -15.887,4.177 -15.147,4.728 Z",
+                                        "style": {
+                                            "fill": "rgb(222, 222, 222)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "9ba229da5711d8": {
+                                        "id": "9ba229da5711d8",
+                                        "label": "path:9ba229da5711d8",
+                                        "type": "path",
+                                        "d": "M 40.52,23.446 l 0.615,-0.082 c 0.071,0.349 0.191,0.6 0.361,0.754 c 0.169,0.154 0.376,0.231 0.62,0.231 c 0.289,0 0.534,-0.101 0.733,-0.301 c 0.199,-0.201 0.299,-0.449 0.299,-0.745 c 0,-0.283 -0.092,-0.516 -0.277,-0.699 c -0.184,-0.184 -0.419,-0.275 -0.704,-0.275 c -0.116,0 -0.261,0.022 -0.434,0.068 l 0.069,-0.54 c 0.041,0.004 0.074,0.007 0.099,0.007 c 0.262,0 0.498,-0.069 0.707,-0.205 c 0.21,-0.137 0.315,-0.348 0.315,-0.633 c 0,-0.225 -0.077,-0.412 -0.229,-0.56 c -0.153,-0.148 -0.35,-0.222 -0.592,-0.222 c -0.239,0 -0.438,0.075 -0.598,0.225 c -0.159,0.151 -0.262,0.376 -0.307,0.677 l -0.616,-0.109 c 0.075,-0.413 0.246,-0.732 0.513,-0.959 c 0.267,-0.227 0.598,-0.34 0.995,-0.34 c 0.273,0 0.525,0.058 0.755,0.176 c 0.23,0.117 0.406,0.277 0.528,0.48 c 0.122,0.203 0.183,0.418 0.183,0.646 c 0,0.217 -0.058,0.414 -0.174,0.591 c -0.117,0.178 -0.289,0.319 -0.517,0.424 c 0.297,0.069 0.527,0.21 0.691,0.426 c 0.164,0.215 0.246,0.484 0.246,0.808 c 0,0.438 -0.159,0.808 -0.479,1.113 c -0.319,0.304 -0.722,0.456 -1.209,0.456 c -0.44,0 -0.805,-0.131 -1.096,-0.393 c -0.29,-0.262 -0.456,-0.602 -0.497,-1.019 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "cf543922d750e8": {
+                                        "id": "cf543922d750e8",
+                                        "label": "path:cf543922d750e8",
+                                        "type": "path",
+                                        "d": "M 30.478,14.579 l 0,0.592 l -3.312,0 c -0.005,-0.148 0.019,-0.291 0.072,-0.428 c 0.084,-0.225 0.219,-0.447 0.405,-0.666 c 0.186,-0.219 0.454,-0.472 0.805,-0.759 c 0.544,-0.447 0.912,-0.8 1.104,-1.061 c 0.191,-0.261 0.287,-0.508 0.287,-0.74 c 0,-0.244 -0.087,-0.45 -0.262,-0.617 c -0.174,-0.168 -0.401,-0.251 -0.681,-0.251 c -0.297,0 -0.534,0.089 -0.711,0.266 c -0.178,0.178 -0.268,0.424 -0.27,0.739 l -0.633,-0.065 c 0.044,-0.472 0.206,-0.832 0.489,-1.079 c 0.283,-0.247 0.662,-0.371 1.138,-0.371 c 0.481,0 0.862,0.134 1.142,0.4 c 0.28,0.267 0.42,0.597 0.42,0.992 c 0,0.2 -0.041,0.397 -0.123,0.591 c -0.082,0.194 -0.218,0.397 -0.408,0.612 c -0.191,0.214 -0.507,0.508 -0.949,0.881 c -0.369,0.31 -0.606,0.521 -0.711,0.631 c -0.105,0.111 -0.191,0.222 -0.259,0.333 l 2.457,0 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "11cb489d473a07": {
+                                        "id": "11cb489d473a07",
+                                        "label": "path:11cb489d473a07",
+                                        "type": "path",
+                                        "d": "M 17.4,35.568 c 0,-0.592 0.061,-1.069 0.183,-1.43 c 0.122,-0.361 0.303,-0.64 0.543,-0.836 c 0.241,-0.196 0.543,-0.294 0.908,-0.294 c 0.269,0 0.505,0.054 0.707,0.163 c 0.203,0.108 0.371,0.264 0.503,0.468 c 0.132,0.204 0.236,0.452 0.311,0.745 c 0.075,0.293 0.113,0.688 0.113,1.184 c 0,0.588 -0.061,1.063 -0.181,1.424 c -0.121,0.361 -0.302,0.64 -0.542,0.837 c -0.241,0.197 -0.544,0.296 -0.911,0.296 c -0.483,0 -0.863,-0.173 -1.138,-0.52 c -0.331,-0.417 -0.496,-1.096 -0.496,-2.037 Z  m 0.632,0 c 0,0.823 0.097,1.37 0.289,1.643 c 0.193,0.272 0.43,0.408 0.713,0.408 c 0.282,0 0.52,-0.137 0.713,-0.41 c 0.192,-0.274 0.288,-0.82 0.288,-1.641 c 0,-0.825 -0.096,-1.373 -0.288,-1.644 c -0.193,-0.271 -0.433,-0.406 -0.72,-0.406 c -0.282,0 -0.508,0.119 -0.677,0.358 c -0.212,0.306 -0.318,0.87 -0.318,1.692 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "917ba4b31989e8": {
+                                        "id": "917ba4b31989e8",
+                                        "label": "path:917ba4b31989e8",
+                                        "type": "path",
+                                        "d": "M 10.62,33.945 l 28.532,-8.906 l -1.425,-2.952 l -27.107,11.858 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "ec93ae1a08eda": {
+                                        "id": "ec93ae1a08eda",
+                                        "type": "ellipse",
+                                        "label": "ellipse:ec93ae1a08eda",
+                                        "cx": 28.261999130249023,
+                                        "cy": 27.999000549316406,
+                                        "rx": 23.913000106811523,
+                                        "ry": 23.711000442504883,
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "rgb(197, 197, 197)",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "550731f8dbd6c": {
+                                        "id": "550731f8dbd6c",
+                                        "type": "ellipse",
+                                        "label": "ellipse:550731f8dbd6c",
+                                        "cx": 27.909000396728516,
+                                        "cy": 28.18000030517578,
+                                        "rx": 6.561999797821045,
+                                        "ry": 6.492000102996826,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "rgb(197, 197, 197)",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "3a65201dd2e7": {
+                                        "id": "3a65201dd2e7",
+                                        "type": "ellipse",
+                                        "label": "ellipse:3a65201dd2e7",
+                                        "cx": 27.895000457763672,
+                                        "cy": 28.038999557495117,
+                                        "rx": 3.312000036239624,
+                                        "ry": 3.2769999504089355,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "rgb(197, 197, 197)",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "ba85435f40362": {
+                                        "id": "ba85435f40362",
+                                        "type": "ellipse",
+                                        "label": "ellipse:ba85435f40362",
+                                        "cx": 17.145000457763672,
+                                        "cy": 39.698001861572266,
+                                        "rx": 1.2239999771118164,
+                                        "ry": 1.2109999656677246,
+                                        "style": {
+                                            "fill": "rgb(107, 198, 254)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "cabf4978935068": {
+                                        "id": "cabf4978935068",
+                                        "label": "path:cabf4978935068",
+                                        "type": "path",
+                                        "d": "M 11.325,20.297 l -0.914,1.8 l -2.521,-2.564 l 3.435,0.764 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "e1fb928e47bac": {
+                                        "id": "e1fb928e47bac",
+                                        "label": "path:e1fb928e47bac",
+                                        "type": "path",
+                                        "d": "M 29.561,8.754 l -2.019,-0.036 l 1.206,-3.388 l 0.813,3.424 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "9df0121399854": {
+                                        "id": "9df0121399854",
+                                        "label": "path:9df0121399854",
+                                        "type": "path",
+                                        "d": "M 12.892,39.023 l 1.502,1.349 l -3.13,1.77 l 1.628,-3.119 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "7fda77de0e0508": {
+                                        "id": "7fda77de0e0508",
+                                        "label": "path:7fda77de0e0508",
+                                        "type": "path",
+                                        "d": "M 45.994,22.27 l -1.157,-1.655 l 3.45,-1.013 l -2.293,2.668 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "652dd153b9b99": {
+                                        "id": "652dd153b9b99",
+                                        "label": "path:652dd153b9b99",
+                                        "type": "path",
+                                        "d": "M 41.54,40.194 l 1.388,-1.466 l 1.689,3.175 l -3.077,-1.709 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "a2153d1f91236": {
+                                        "id": "a2153d1f91236",
+                                        "type": "group",
+                                        "label": "group:a2153d1f91236",
+                                        "x": 0,
+                                        "y": 0,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        },
+                                        "children": {
+                                            "fdb0e9c3bf21d8": {
+                                                "id": "fdb0e9c3bf21d8",
+                                                "label": "path:fdb0e9c3bf21d8",
+                                                "type": "path",
+                                                "d": "M 33.936,5.522 l -0.545,2.78",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "d7ca2d56141d8": {
+                                                "id": "d7ca2d56141d8",
+                                                "label": "path:d7ca2d56141d8",
+                                                "type": "path",
+                                                "d": "M 39.432,7.654 l -1.503,2.402",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "115918b56ecdb7": {
+                                                "id": "115918b56ecdb7",
+                                                "label": "path:115918b56ecdb7",
+                                                "type": "path",
+                                                "d": "M 43.53,10.534 l -1.883,2.118",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "dbca6a9f78d728": {
+                                                "id": "dbca6a9f78d728",
+                                                "label": "path:dbca6a9f78d728",
+                                                "type": "path",
+                                                "d": "M 47.011,14.393 l -2.359,1.569",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "9afa6f4f46c91": {
+                                        "id": "9afa6f4f46c91",
+                                        "type": "group",
+                                        "label": "group:9afa6f4f46c91",
+                                        "x": 0,
+                                        "y": 0,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        },
+                                        "children": {
+                                            "24db40a437fb9": {
+                                                "id": "24db40a437fb9",
+                                                "label": "path:24db40a437fb9",
+                                                "type": "path",
+                                                "d": "M 51.001,23.538 l -2.758,0.646",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "8929a981309828": {
+                                                "id": "8929a981309828",
+                                                "label": "path:8929a981309828",
+                                                "type": "path",
+                                                "d": "M 51.317,29.424 l -2.807,-0.382",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "d9edfd6e17843": {
+                                                "id": "d9edfd6e17843",
+                                                "label": "path:d9edfd6e17843",
+                                                "type": "path",
+                                                "d": "M 50.376,34.344 l -2.704,-0.845",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "9a844f96a0e0b": {
+                                                "id": "9a844f96a0e0b",
+                                                "label": "path:9a844f96a0e0b",
+                                                "type": "path",
+                                                "d": "M 48.29,39.103 l -2.401,-1.505",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "c710623dd0c8d": {
+                                        "id": "c710623dd0c8d",
+                                        "type": "group",
+                                        "label": "group:c710623dd0c8d",
+                                        "x": 0,
+                                        "y": 0,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        },
+                                        "children": {
+                                            "ebf248f4a88968": {
+                                                "id": "ebf248f4a88968",
+                                                "label": "path:ebf248f4a88968",
+                                                "type": "path",
+                                                "d": "M 8.033,38.961 l 2.377,-1.541",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "ac50439eb0b1e": {
+                                                "id": "ac50439eb0b1e",
+                                                "label": "path:ac50439eb0b1e",
+                                                "type": "path",
+                                                "d": "M 5.746,33.528 l 2.771,-0.589",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "60ebf6df7a06d8": {
+                                                "id": "60ebf6df7a06d8",
+                                                "label": "path:60ebf6df7a06d8",
+                                                "type": "path",
+                                                "d": "M 4.968,28.58 l 2.831,-0.119",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "e274e2067a4fd": {
+                                                "id": "e274e2067a4fd",
+                                                "label": "path:e274e2067a4fd",
+                                                "type": "path",
+                                                "d": "M 5.323,23.395 l 2.768,0.605",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "8dce6f9574cd": {
+                                        "id": "8dce6f9574cd",
+                                        "type": "group",
+                                        "label": "group:8dce6f9574cd",
+                                        "x": 0,
+                                        "y": 0,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        },
+                                        "children": {
+                                            "6586f85d036578": {
+                                                "id": "6586f85d036578",
+                                                "label": "path:6586f85d036578",
+                                                "type": "path",
+                                                "d": "M 9.615,14.46 l 2.351,1.581",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "35c012ea2fd2ee": {
+                                                "id": "35c012ea2fd2ee",
+                                                "label": "path:35c012ea2fd2ee",
+                                                "type": "path",
+                                                "d": "M 13.712,10.222 l 1.631,2.317",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "415e11fedf6d8": {
+                                                "id": "415e11fedf6d8",
+                                                "label": "path:415e11fedf6d8",
+                                                "type": "path",
+                                                "d": "M 17.956,7.562 l 1.222,2.557",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "8a2545ba21da38": {
+                                                "id": "8a2545ba21da38",
+                                                "label": "path:8a2545ba21da38",
+                                                "type": "path",
+                                                "d": "M 22.863,5.851 l 0.532,2.783",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "scale": {
+                                    "sx": 3.6427445248896624,
+                                    "sy": 3.709341077927373
+                                }
+                            },
+                            {
+                                "tx": 56,
+                                "ty": 20,
+                                "template": {
+                                    "cfb99ec40b416": {
+                                        "id": "cfb99ec40b416",
+                                        "type": "ellipse",
+                                        "label": "ellipse:cfb99ec40b416",
+                                        "cx": 28.187000274658203,
+                                        "cy": 28.05699920654297,
+                                        "rx": 27.812000274658203,
+                                        "ry": 27.68199920654297,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "16ad3026c1927": {
+                                        "id": "16ad3026c1927",
+                                        "label": "rect:16ad3026c1927",
+                                        "type": "rect",
+                                        "x": 25.540000915527344,
+                                        "y": 41.12300109863281,
+                                        "width": 4.98199987411499,
+                                        "height": 1.9459999799728394,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "6495c10f2b81a": {
+                                        "id": "6495c10f2b81a",
+                                        "label": "path:6495c10f2b81a",
+                                        "type": "path",
+                                        "d": "M 14.375,24.658 l -0.615,0 l 0,-3.92 c -0.148,0.141 -0.342,0.282 -0.583,0.424 c -0.24,0.141 -0.456,0.247 -0.647,0.318 l 0,-0.595 c 0.344,-0.162 0.644,-0.358 0.902,-0.588 c 0.257,-0.23 0.44,-0.454 0.547,-0.67 l 0.396,0 l 0,5.031 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "5398bf29394e2": {
+                                        "id": "5398bf29394e2",
+                                        "label": "path:5398bf29394e2",
+                                        "type": "path",
+                                        "d": "M 40.263,39.529 l 0,-1.2 l -2.174,0 l 0,-0.564 l 2.287,-3.247 l 0.503,0 l 0,3.247 l 0.676,0 l 0,0.564 l -0.676,0 l 0,1.2 l -0.616,0 Z  m 0,-1.764 l 0,-2.259 l -1.569,2.259 l 1.569,0 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "b33df9b925eac8": {
+                                        "id": "b33df9b925eac8",
+                                        "label": "path:b33df9b925eac8",
+                                        "type": "path",
+                                        "d": "M 13.869,9.244 l 10.548,13.48 c 1.441,-0.382 2.668,-0.692 4.031,-0.73 l 0.568,-17.478 c -6.428,-0.699 -15.887,4.177 -15.147,4.728 Z",
+                                        "style": {
+                                            "fill": "rgb(222, 222, 222)",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "1f24e8db670b27": {
+                                        "id": "1f24e8db670b27",
+                                        "label": "path:1f24e8db670b27",
+                                        "type": "path",
+                                        "d": "M 40.52,23.446 l 0.615,-0.082 c 0.071,0.349 0.191,0.6 0.361,0.754 c 0.169,0.154 0.376,0.231 0.62,0.231 c 0.289,0 0.534,-0.101 0.733,-0.301 c 0.199,-0.201 0.299,-0.449 0.299,-0.745 c 0,-0.283 -0.092,-0.516 -0.277,-0.699 c -0.184,-0.184 -0.419,-0.275 -0.704,-0.275 c -0.116,0 -0.261,0.022 -0.434,0.068 l 0.069,-0.54 c 0.041,0.004 0.074,0.007 0.099,0.007 c 0.262,0 0.498,-0.069 0.707,-0.205 c 0.21,-0.137 0.315,-0.348 0.315,-0.633 c 0,-0.225 -0.077,-0.412 -0.229,-0.56 c -0.153,-0.148 -0.35,-0.222 -0.592,-0.222 c -0.239,0 -0.438,0.075 -0.598,0.225 c -0.159,0.151 -0.262,0.376 -0.307,0.677 l -0.616,-0.109 c 0.075,-0.413 0.246,-0.732 0.513,-0.959 c 0.267,-0.227 0.598,-0.34 0.995,-0.34 c 0.273,0 0.525,0.058 0.755,0.176 c 0.23,0.117 0.406,0.277 0.528,0.48 c 0.122,0.203 0.183,0.418 0.183,0.646 c 0,0.217 -0.058,0.414 -0.174,0.591 c -0.117,0.178 -0.289,0.319 -0.517,0.424 c 0.297,0.069 0.527,0.21 0.691,0.426 c 0.164,0.215 0.246,0.484 0.246,0.808 c 0,0.438 -0.159,0.808 -0.479,1.113 c -0.319,0.304 -0.722,0.456 -1.209,0.456 c -0.44,0 -0.805,-0.131 -1.096,-0.393 c -0.29,-0.262 -0.456,-0.602 -0.497,-1.019 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "6e6c0ef54b895": {
+                                        "id": "6e6c0ef54b895",
+                                        "label": "path:6e6c0ef54b895",
+                                        "type": "path",
+                                        "d": "M 30.478,14.579 l 0,0.592 l -3.312,0 c -0.005,-0.148 0.019,-0.291 0.072,-0.428 c 0.084,-0.225 0.219,-0.447 0.405,-0.666 c 0.186,-0.219 0.454,-0.472 0.805,-0.759 c 0.544,-0.447 0.912,-0.8 1.104,-1.061 c 0.191,-0.261 0.287,-0.508 0.287,-0.74 c 0,-0.244 -0.087,-0.45 -0.262,-0.617 c -0.174,-0.168 -0.401,-0.251 -0.681,-0.251 c -0.297,0 -0.534,0.089 -0.711,0.266 c -0.178,0.178 -0.268,0.424 -0.27,0.739 l -0.633,-0.065 c 0.044,-0.472 0.206,-0.832 0.489,-1.079 c 0.283,-0.247 0.662,-0.371 1.138,-0.371 c 0.481,0 0.862,0.134 1.142,0.4 c 0.28,0.267 0.42,0.597 0.42,0.992 c 0,0.2 -0.041,0.397 -0.123,0.591 c -0.082,0.194 -0.218,0.397 -0.408,0.612 c -0.191,0.214 -0.507,0.508 -0.949,0.881 c -0.369,0.31 -0.606,0.521 -0.711,0.631 c -0.105,0.111 -0.191,0.222 -0.259,0.333 l 2.457,0 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "f401e5ea607688": {
+                                        "id": "f401e5ea607688",
+                                        "label": "path:f401e5ea607688",
+                                        "type": "path",
+                                        "d": "M 17.4,35.568 c 0,-0.592 0.061,-1.069 0.183,-1.43 c 0.122,-0.361 0.303,-0.64 0.543,-0.836 c 0.241,-0.196 0.543,-0.294 0.908,-0.294 c 0.269,0 0.505,0.054 0.707,0.163 c 0.203,0.108 0.371,0.264 0.503,0.468 c 0.132,0.204 0.236,0.452 0.311,0.745 c 0.075,0.293 0.113,0.688 0.113,1.184 c 0,0.588 -0.061,1.063 -0.181,1.424 c -0.121,0.361 -0.302,0.64 -0.542,0.837 c -0.241,0.197 -0.544,0.296 -0.911,0.296 c -0.483,0 -0.863,-0.173 -1.138,-0.52 c -0.331,-0.417 -0.496,-1.096 -0.496,-2.037 Z  m 0.632,0 c 0,0.823 0.097,1.37 0.289,1.643 c 0.193,0.272 0.43,0.408 0.713,0.408 c 0.282,0 0.52,-0.137 0.713,-0.41 c 0.192,-0.274 0.288,-0.82 0.288,-1.641 c 0,-0.825 -0.096,-1.373 -0.288,-1.644 c -0.193,-0.271 -0.433,-0.406 -0.72,-0.406 c -0.282,0 -0.508,0.119 -0.677,0.358 c -0.212,0.306 -0.318,0.87 -0.318,1.692 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "6738dc546fedd4": {
+                                        "id": "6738dc546fedd4",
+                                        "label": "path:6738dc546fedd4",
+                                        "type": "path",
+                                        "d": "M 23.964,10.626 l 5.259,29.424 l 3.107,-1.044 l -8.366,-28.38 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "39b5e99d9c0a46": {
+                                        "id": "39b5e99d9c0a46",
+                                        "type": "ellipse",
+                                        "label": "ellipse:39b5e99d9c0a46",
+                                        "cx": 28.261999130249023,
+                                        "cy": 27.999000549316406,
+                                        "rx": 23.913000106811523,
+                                        "ry": 23.711000442504883,
+                                        "style": {
+                                            "fill": "none",
+                                            "stroke": "rgb(197, 197, 197)",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "3c9bf8d8384de8": {
+                                        "id": "3c9bf8d8384de8",
+                                        "type": "ellipse",
+                                        "label": "ellipse:3c9bf8d8384de8",
+                                        "cx": 27.909000396728516,
+                                        "cy": 28.18000030517578,
+                                        "rx": 6.561999797821045,
+                                        "ry": 6.492000102996826,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "rgb(197, 197, 197)",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "1ff523c02b83cc": {
+                                        "id": "1ff523c02b83cc",
+                                        "type": "ellipse",
+                                        "label": "ellipse:1ff523c02b83cc",
+                                        "cx": 27.895000457763672,
+                                        "cy": 28.038999557495117,
+                                        "rx": 3.312000036239624,
+                                        "ry": 3.2769999504089355,
+                                        "style": {
+                                            "fill": "white",
+                                            "stroke": "rgb(197, 197, 197)",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "99114dc00a73d": {
+                                        "id": "99114dc00a73d",
+                                        "type": "ellipse",
+                                        "label": "ellipse:99114dc00a73d",
+                                        "cx": 17.145000457763672,
+                                        "cy": 39.698001861572266,
+                                        "rx": 1.2239999771118164,
+                                        "ry": 1.2109999656677246,
+                                        "style": {
+                                            "fill": "rgb(107, 198, 254)",
+                                            "stroke": "black",
+                                            "stroke-width": "0.75px",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "6a00e964f9f518": {
+                                        "id": "6a00e964f9f518",
+                                        "label": "path:6a00e964f9f518",
+                                        "type": "path",
+                                        "d": "M 11.325,20.297 l -0.914,1.8 l -2.521,-2.564 l 3.435,0.764 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "e5bdaae993f5e8": {
+                                        "id": "e5bdaae993f5e8",
+                                        "label": "path:e5bdaae993f5e8",
+                                        "type": "path",
+                                        "d": "M 29.561,8.754 l -2.019,-0.036 l 1.206,-3.388 l 0.813,3.424 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "dc6b770cf32858": {
+                                        "id": "dc6b770cf32858",
+                                        "label": "path:dc6b770cf32858",
+                                        "type": "path",
+                                        "d": "M 12.892,39.023 l 1.502,1.349 l -3.13,1.77 l 1.628,-3.119 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "fbd5ee8767dc8": {
+                                        "id": "fbd5ee8767dc8",
+                                        "label": "path:fbd5ee8767dc8",
+                                        "type": "path",
+                                        "d": "M 45.994,22.27 l -1.157,-1.655 l 3.45,-1.013 l -2.293,2.668 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "6a78cfa528d5d": {
+                                        "id": "6a78cfa528d5d",
+                                        "label": "path:6a78cfa528d5d",
+                                        "type": "path",
+                                        "d": "M 41.54,40.194 l 1.388,-1.466 l 1.689,3.175 l -3.077,-1.709 Z",
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "none",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "3f3fe08b2ecd2": {
+                                        "id": "3f3fe08b2ecd2",
+                                        "type": "group",
+                                        "label": "group:3f3fe08b2ecd2",
+                                        "x": 0,
+                                        "y": 0,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        },
+                                        "children": {
+                                            "6be9813d6881a": {
+                                                "id": "6be9813d6881a",
+                                                "label": "path:6be9813d6881a",
+                                                "type": "path",
+                                                "d": "M 33.936,5.522 l -0.545,2.78",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "ab391345d0a43": {
+                                                "id": "ab391345d0a43",
+                                                "label": "path:ab391345d0a43",
+                                                "type": "path",
+                                                "d": "M 39.432,7.654 l -1.503,2.402",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "6e3aada81ba594": {
+                                                "id": "6e3aada81ba594",
+                                                "label": "path:6e3aada81ba594",
+                                                "type": "path",
+                                                "d": "M 43.53,10.534 l -1.883,2.118",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "4bcde2deb597dc": {
+                                                "id": "4bcde2deb597dc",
+                                                "label": "path:4bcde2deb597dc",
+                                                "type": "path",
+                                                "d": "M 47.011,14.393 l -2.359,1.569",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "ef0c8175196b3": {
+                                        "id": "ef0c8175196b3",
+                                        "type": "group",
+                                        "label": "group:ef0c8175196b3",
+                                        "x": 0,
+                                        "y": 0,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        },
+                                        "children": {
+                                            "2d61562c9a2d7a": {
+                                                "id": "2d61562c9a2d7a",
+                                                "label": "path:2d61562c9a2d7a",
+                                                "type": "path",
+                                                "d": "M 51.001,23.538 l -2.758,0.646",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "3e50870de99ff8": {
+                                                "id": "3e50870de99ff8",
+                                                "label": "path:3e50870de99ff8",
+                                                "type": "path",
+                                                "d": "M 51.317,29.424 l -2.807,-0.382",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "8a3761558aef2": {
+                                                "id": "8a3761558aef2",
+                                                "label": "path:8a3761558aef2",
+                                                "type": "path",
+                                                "d": "M 50.376,34.344 l -2.704,-0.845",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "3bda025e4bf0ae": {
+                                                "id": "3bda025e4bf0ae",
+                                                "label": "path:3bda025e4bf0ae",
+                                                "type": "path",
+                                                "d": "M 48.29,39.103 l -2.401,-1.505",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "26eaa55c5da52a": {
+                                        "id": "26eaa55c5da52a",
+                                        "type": "group",
+                                        "label": "group:26eaa55c5da52a",
+                                        "x": 0,
+                                        "y": 0,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        },
+                                        "children": {
+                                            "e419f54d657188": {
+                                                "id": "e419f54d657188",
+                                                "label": "path:e419f54d657188",
+                                                "type": "path",
+                                                "d": "M 8.033,38.961 l 2.377,-1.541",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "b82058f8fc1c98": {
+                                                "id": "b82058f8fc1c98",
+                                                "label": "path:b82058f8fc1c98",
+                                                "type": "path",
+                                                "d": "M 5.746,33.528 l 2.771,-0.589",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "1b743a60421bc7": {
+                                                "id": "1b743a60421bc7",
+                                                "label": "path:1b743a60421bc7",
+                                                "type": "path",
+                                                "d": "M 4.968,28.58 l 2.831,-0.119",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "8a44d17841b52": {
+                                                "id": "8a44d17841b52",
+                                                "label": "path:8a44d17841b52",
+                                                "type": "path",
+                                                "d": "M 5.323,23.395 l 2.768,0.605",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "6bf1be1200c74": {
+                                        "id": "6bf1be1200c74",
+                                        "type": "group",
+                                        "label": "group:6bf1be1200c74",
+                                        "x": 0,
+                                        "y": 0,
+                                        "style": {
+                                            "fill": "",
+                                            "stroke": "",
+                                            "stroke-width": 0,
+                                            "opacity": 1
+                                        },
+                                        "children": {
+                                            "a5a3659d4073e8": {
+                                                "id": "a5a3659d4073e8",
+                                                "label": "path:a5a3659d4073e8",
+                                                "type": "path",
+                                                "d": "M 9.615,14.46 l 2.351,1.581",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "1958ca75852406": {
+                                                "id": "1958ca75852406",
+                                                "label": "path:1958ca75852406",
+                                                "type": "path",
+                                                "d": "M 13.712,10.222 l 1.631,2.317",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "406b89ea378128": {
+                                                "id": "406b89ea378128",
+                                                "label": "path:406b89ea378128",
+                                                "type": "path",
+                                                "d": "M 17.956,7.562 l 1.222,2.557",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            },
+                                            "14836dfa27cb62": {
+                                                "id": "14836dfa27cb62",
+                                                "label": "path:14836dfa27cb62",
+                                                "type": "path",
+                                                "d": "M 22.863,5.851 l 0.532,2.783",
+                                                "style": {
+                                                    "fill": "",
+                                                    "stroke": "black",
+                                                    "stroke-width": "0.75px",
+                                                    "opacity": 1
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "scale": {
+                                    "sx": 3.624766652844651,
+                                    "sy": 3.637091963247879
+                                }
+                            }
+                        ]
+                    },
+                    "validators": [],
+                    "questionId": "26dd870e3750ee",
+                    "number": 10
+                }
+            ],
+            "navigation": {
+                "id": "aad3d4d08b6948",
+                "type": "node",
+                "parent": null,
+                "children": [
+                    {
+                        "id": "f6025d0ff4b488",
+                        "type": "node",
+                        "parent": "aad3d4d08b6948",
+                        "children": [
+                            {
+                                "id": "1a671649beb3ca",
+                                "type": "node",
+                                "parent": "f6025d0ff4b488",
+                                "children": [
+                                    {
+                                        "id": "1d1936c3479db7",
+                                        "type": "node",
+                                        "parent": "1a671649beb3ca",
+                                        "children": [],
+                                        "rules": [
+                                            {
+                                                "type": "graphics",
+                                                "values": "35bd6b7eeb9a94"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "21e2ca3add009c",
+                                        "type": "node",
+                                        "parent": "1a671649beb3ca",
+                                        "children": [],
+                                        "rules": [
+                                            {
+                                                "type": "graphics",
+                                                "values": "8426aabaceea58"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "164f0b02a2b9f6",
+                                        "type": "node",
+                                        "parent": "1a671649beb3ca",
+                                        "children": [],
+                                        "rules": [
+                                            {
+                                                "type": "graphics",
+                                                "values": "15ddac014a6ff4"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "rules": []
+                            }
+                        ],
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "heating"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "8739d6b1599bd8",
+                        "type": "node",
+                        "parent": "aad3d4d08b6948",
+                        "children": [
+                            {
+                                "id": "1d1f3ad86bc48c",
+                                "type": "node",
+                                "parent": "8739d6b1599bd8",
+                                "children": [
+                                    {
+                                        "id": "2d947e181b1e24",
+                                        "type": "node",
+                                        "parent": "1d1f3ad86bc48c",
+                                        "children": [],
+                                        "rules": [
+                                            {
+                                                "type": "options",
+                                                "values": [
+                                                    "very urgent"
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "1fe019b7a9046",
+                                        "type": "node",
+                                        "parent": "1d1f3ad86bc48c",
+                                        "children": [
+                                            {
+                                                "id": "2a6108027de626",
+                                                "type": "node",
+                                                "parent": "1fe019b7a9046",
+                                                "children": [],
+                                                "rules": []
+                                            }
+                                        ],
+                                        "rules": [
+                                            {
+                                                "type": "options",
+                                                "values": [
+                                                    "needs sorting sometime today",
+                                                    "not urgent"
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "rules": [
+                                    {
+                                        "type": "options",
+                                        "values": [
+                                            "leak!"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "26dd870e3750ee",
+                                "type": "node",
+                                "parent": "8739d6b1599bd8",
+                                "children": [
+                                    {
+                                        "id": "11a388e2a70d19",
+                                        "type": "node",
+                                        "parent": "26dd870e3750ee",
+                                        "children": [],
+                                        "rules": [
+                                            {
+                                                "type": "graphics",
+                                                "values": "b852558e328228"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "id": "1f381a1aeac74",
+                                        "type": "node",
+                                        "parent": "26dd870e3750ee",
+                                        "children": [],
+                                        "rules": [
+                                            {
+                                                "type": "graphics",
+                                                "values": "cfb99ec40b416"
+                                            }
+                                        ]
+                                    }
+                                ],
+                                "rules": [
+                                    {
+                                        "type": "options",
+                                        "values": [
+                                            "water pressure",
+                                            "no water"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ],
+                        "rules": [
+                            {
+                                "type": "options",
+                                "values": [
+                                    "water"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "webhooks": [
+                {
+                    "name": "notify endpoint",
+                    "type": "notify",
+                    "url": "http://buttonkit:8080/api/v1/send",
+                    "method": "POST",
+                    "parameters": {
+                        "dynamic": [],
+                        "static": {
+                            "email": {
+                                "subject": "",
+                                "body": ""
+                            },
+                            "sms": {
+                                "body": "[presser:apartment] has a leak - please get there ASAP!"
+                            },
+                            "recipients": [
+                                {
+                                    "name": "07818450680",
+                                    "id": "07818450680",
+                                    "type": "sms",
+                                    "sms": "07818450680",
+                                    "path": ""
+                                }
+                            ]
+                        }
+                    },
+                    "id": "2d947e181b1e24"
+                },
+                {
+                    "name": "notify endpoint",
+                    "type": "notify",
+                    "url": "http://buttonkit:8080/api/v1/send",
+                    "method": "POST",
+                    "parameters": {
+                        "dynamic": [],
+                        "static": {
+                            "email": {
+                                "subject": "",
+                                "body": ""
+                            },
+                            "sms": {
+                                "body": "[presser:apartment] has a leak.  The time that they are available is [1fe019b7a9046]"
+                            },
+                            "recipients": []
+                        }
+                    },
+                    "id": "2a6108027de626"
+                },
+                {
+                    "name": "notify endpoint",
+                    "type": "notify",
+                    "url": "http://buttonkit:8080/api/v1/send",
+                    "method": "POST",
+                    "parameters": {
+                        "dynamic": [],
+                        "static": {
+                            "email": {
+                                "subject": "",
+                                "body": ""
+                            },
+                            "sms": {
+                                "body": "[presser:apartment] has low pressure, but boiler is above 1 bar"
+                            },
+                            "recipients": [
+                                {
+                                    "name": "07972828281",
+                                    "id": "07972828281",
+                                    "type": "sms",
+                                    "sms": "07972828281",
+                                    "path": ""
+                                }
+                            ]
+                        }
+                    },
+                    "id": "11a388e2a70d19"
+                },
+                {
+                    "name": "notify endpoint",
+                    "type": "notify",
+                    "url": "http://buttonkit:8080/api/v1/send",
+                    "method": "POST",
+                    "parameters": {
+                        "dynamic": [],
+                        "static": {
+                            "email": {
+                                "subject": "",
+                                "body": ""
+                            },
+                            "sms": {
+                                "body": "[presser:apartment] has low pressure"
+                            },
+                            "recipients": [
+                                {
+                                    "name": "078776554677",
+                                    "id": "078776554677",
+                                    "type": "sms",
+                                    "sms": "078776554677",
+                                    "path": ""
+                                }
+                            ]
+                        }
+                    },
+                    "id": "1f381a1aeac74"
+                }
+            ]
+        }
+    ]
+}
